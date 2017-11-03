@@ -5,4 +5,5 @@ package codeclan.com.homeworkinstrumentclasses;
  */
 
 public interface Sellable {
+    float markUp();
 }
