@@ -4,13 +4,13 @@ package codeclan.com.homeworkinstrumentclasses.Accesssories;
  * Created by user on 03/11/2017.
  */
 
-public class Cables extends Accessories{
+public class StringSets extends Accessories{
 
-    private int length;
+    private int gauge;
 
-    public Cables(float costPrice, float sellPrice, int length) {
+    public StringSets(float costPrice, float sellPrice, int gauge){
         super(costPrice, sellPrice);
-        this.length = length;
+        this.gauge = gauge;
     }
 
     @Override

@@ -21,6 +21,6 @@ public class DJ extends Instrument{
 
     @Override
     public String setSoundItMakes() {
-        return null;
+        return "Puntz Kapuntz";
     }
 }

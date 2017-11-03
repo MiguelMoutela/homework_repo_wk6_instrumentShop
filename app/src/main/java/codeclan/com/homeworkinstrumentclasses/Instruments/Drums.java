@@ -25,6 +25,6 @@ public class Drums extends Instrument{
 
     @Override
     public String setSoundItMakes() {
-        return null;
+        return "BA-DUM-TSS";
     }
 }

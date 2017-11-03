@@ -21,6 +21,6 @@ public class Brass extends Instrument{
 
     @Override
     public String setSoundItMakes() {
-        return null;
+        return "TA-RA-TA-TA";
     }
 }

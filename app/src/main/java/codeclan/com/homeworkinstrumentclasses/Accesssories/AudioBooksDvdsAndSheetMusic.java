@@ -7,12 +7,12 @@ import codeclan.com.homeworkinstrumentclasses.Sellable;
  * Created by user on 03/11/2017.
  */
 
-public class AudioBooksAndDvds extends Accessories implements Sellable, Playable {
+public class AudioBooksDvdsAndSheetMusic extends Accessories implements Playable {
 
     private String title;
 
 
-    public AudioBooksAndDvds(float costPrice, float sellPrice, String title){
+    public AudioBooksDvdsAndSheetMusic(float costPrice, float sellPrice, String title){
 
         super(costPrice, sellPrice);
 

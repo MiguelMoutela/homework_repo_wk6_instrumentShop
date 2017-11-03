@@ -21,6 +21,6 @@ public class Strings extends Instrument{
 
     @Override
     public String setSoundItMakes() {
-        return null;
+        return "Squeak Squeak";
     }
 }
