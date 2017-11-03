@@ -8,9 +8,16 @@ import codeclan.com.homeworkinstrumentclasses.Sellable;
  */
 
 public abstract class Instrument implements Playable, Sellable {
+    InstrumentType type;
     float costPrice;
     float sellPrice;
 
+
+    public Instrument(InstrumentType type, float costPrice, float sellPrice){
+        this.type = type;
+        this.costPrice = costPrice;
+        this.sellPrice = sellPrice;
+    }
 
 }
 

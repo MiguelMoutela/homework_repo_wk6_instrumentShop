@@ -7,6 +7,15 @@ import codeclan.com.homeworkinstrumentclasses.Sellable;
  */
 
 public abstract class Accessories implements Sellable {
-    float costPrice;
-    float sellPrice;
+
+    private float costPrice;
+    private float sellPrice;
+
+    public Accessories(float costPrice, float sellPrice) {
+
+        this.costPrice = costPrice;
+        this.sellPrice = sellPrice;
+
+    }
+
 }

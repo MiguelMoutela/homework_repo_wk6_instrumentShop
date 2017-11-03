@@ -5,6 +5,14 @@ package codeclan.com.homeworkinstrumentclasses.Accesssories;
  */
 
 public class Amplification extends Accessories{
+
+    private int watts;
+
+    public Amplification (float costPrice, float sellPrice, int watts){
+        super(costPrice, sellPrice);
+        this.watts = watts;
+    }
+
     @Override
     public float markUp() {
         return 0;

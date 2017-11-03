@@ -5,7 +5,7 @@ package codeclan.com.homeworkinstrumentclasses.Instruments;
  */
 
     public enum InstrumentType{
-       TRADITIONAL,
-       CONTEMPORARY;
-    }
+       ELECTRIC,
+       ACOUSTIC;
+
 }

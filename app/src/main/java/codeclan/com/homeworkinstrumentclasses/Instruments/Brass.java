@@ -4,14 +4,14 @@ package codeclan.com.homeworkinstrumentclasses.Instruments;
  * Created by user on 03/11/2017.
  */
 
-public class DJ extends Instrument{
+public class Brass extends Instrument{
 
-    private int numberOfInputs;
+    private int numberOfValves;
 
-    public DJ(InstrumentType type, float costPrice, float sellPrice, int numberOfInputs){
+    public Brass(InstrumentType type, float costPrice, float sellPrice, int numberOfValves){
         super(type, costPrice, sellPrice);
 
-        this.numberOfInputs = numberOfInputs;
+        this.numberOfValves = numberOfValves;
     }
 
     @Override
