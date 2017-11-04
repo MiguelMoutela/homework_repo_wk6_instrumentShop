@@ -1,4 +1,4 @@
-package codeclan.com.homeworkinstrumentclasses;
+package codeclan.com.homeworkinstrumentclasses.InstrumentTests;
 import codeclan.com.homeworkinstrumentclasses.Instruments.Brass;
 import codeclan.com.homeworkinstrumentclasses.Instruments.InstrumentType;
 

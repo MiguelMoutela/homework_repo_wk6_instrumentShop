@@ -1,4 +1,4 @@
-package codeclan.com.homeworkinstrumentclasses;
+package codeclan.com.homeworkinstrumentclasses.AccessoriesTest;
 
 
 import org.junit.Before;

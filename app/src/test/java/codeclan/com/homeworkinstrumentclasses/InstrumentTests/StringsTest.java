@@ -1,4 +1,4 @@
-package codeclan.com.homeworkinstrumentclasses;
+package codeclan.com.homeworkinstrumentclasses.InstrumentTests;
 
 import org.junit.Before;
 import org.junit.Test;
