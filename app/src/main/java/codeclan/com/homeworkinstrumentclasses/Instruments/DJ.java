@@ -20,7 +20,7 @@ public class DJ extends Instrument{
     }
 
     @Override
-    public String setSoundItMakes() {
+    public String getSoundItMakes() {
         return "Puntz Kapuntz";
     }
 }

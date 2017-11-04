@@ -25,7 +25,7 @@ public class AudioBooksDvdsAndSheetMusic extends Accessories implements Playable
     }
 
     @Override
-    public String setSoundItMakes() {
+    public String getSoundItMakes() {
         return "It instructs.";
     }
 }

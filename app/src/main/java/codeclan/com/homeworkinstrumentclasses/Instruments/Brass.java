@@ -20,7 +20,7 @@ public class Brass extends Instrument{
     }
 
     @Override
-    public String setSoundItMakes() {
+    public String getSoundItMakes() {
         return "TA-RA-TA-TA";
     }
 }

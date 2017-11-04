@@ -20,7 +20,7 @@ public class Amplification extends Accessories implements Playable {
         return 0;
     }
 
-    public String setSoundItMakes(){
+    public String getSoundItMakes(){
         return "feedback.";
     }
 }

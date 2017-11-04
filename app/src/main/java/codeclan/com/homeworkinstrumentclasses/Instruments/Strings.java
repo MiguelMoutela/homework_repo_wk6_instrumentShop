@@ -20,7 +20,7 @@ public class Strings extends Instrument{
     }
 
     @Override
-    public String setSoundItMakes() {
+    public String getSoundItMakes() {
         return "Squeak Squeak";
     }
 }

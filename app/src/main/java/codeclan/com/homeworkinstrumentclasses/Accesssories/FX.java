@@ -19,7 +19,7 @@ public class FX extends Accessories implements Playable {
     public float markUp() {
         return 0;
     }
-    public String setSoundItMakes(){
+    public String getSoundItMakes(){
         return "Special FX sounds.";
     }
 }
