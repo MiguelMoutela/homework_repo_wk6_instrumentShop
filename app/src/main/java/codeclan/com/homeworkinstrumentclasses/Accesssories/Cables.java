@@ -15,7 +15,7 @@ public class Cables extends Accessories{
 
     @Override
     public float markUp() {
-        return ((sellPrice-costPrice)/costPrice);
+        return ((sellPrice - costPrice) / costPrice);
     }
 
     public float getCostPrice() {

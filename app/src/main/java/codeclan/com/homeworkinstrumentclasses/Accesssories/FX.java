@@ -17,9 +17,21 @@ public class FX extends Accessories implements Playable {
 
     @Override
     public float markUp() {
-        return 0;
+        return ((sellPrice-costPrice)/costPrice);
     }
     public String getSoundItMakes(){
-        return "Special FX sounds.";
+        return "Special FX sounds";
+    }
+
+    public float getCostPrice() {
+        return costPrice;
+    }
+
+    public float getSellPrice() {
+        return sellPrice;
+    }
+
+    public boolean getBattery() {
+        return battery;
     }
 }
