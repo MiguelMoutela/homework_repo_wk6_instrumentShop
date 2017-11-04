@@ -13,14 +13,24 @@ public class Brass extends Instrument{
 
         this.numberOfValves = numberOfValves;
     }
-
-    @Override
     public float markUp() {
-        return 0;
+        return ((sellPrice-costPrice)/costPrice);
     }
-
-    @Override
     public String getSoundItMakes() {
         return "TA-RA-TA-TA";
     }
+    public InstrumentType getInstrumentType() {
+        return type;
+    }
+    public float getCostPrice(){
+        return costPrice;
+    }
+    public float getSellPrice(){
+        return sellPrice;
+    }
+    public int getNumberOfValves(){
+        return numberOfValves;
+    }
+
+
 }

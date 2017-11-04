@@ -5,5 +5,5 @@ package codeclan.com.homeworkinstrumentclasses;
  */
 
 public interface Playable {
-    String setSoundItMakes();
+    String getSoundItMakes();
 }
