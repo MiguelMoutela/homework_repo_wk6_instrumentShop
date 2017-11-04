@@ -21,11 +21,23 @@ public class AudioBooksDvdsAndSheetMusic extends Accessories implements Playable
 
     @Override
     public float markUp() {
-        return 0;
+        return ((sellPrice-costPrice)/costPrice);
     }
 
     @Override
     public String getSoundItMakes() {
-        return "It instructs.";
+        return "It instructs";
+    }
+
+    public float getCostPrice() {
+        return costPrice;
+    }
+
+    public float getSellPrice() {
+        return sellPrice;
+    }
+
+    public String getTitle() {
+        return title;
     }
 }
