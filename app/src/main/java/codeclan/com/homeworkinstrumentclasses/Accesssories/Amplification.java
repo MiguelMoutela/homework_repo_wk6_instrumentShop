@@ -17,10 +17,22 @@ public class Amplification extends Accessories implements Playable {
 
     @Override
     public float markUp() {
-        return 0;
+        return ((sellPrice-costPrice)/costPrice);
     }
 
     public String getSoundItMakes(){
-        return "feedback.";
+        return "feedback";
+    }
+
+    public float getCostPrice() {
+        return costPrice;
+    }
+
+    public float getSellPrice() {
+        return sellPrice;
+    }
+
+    public int getWatts() {
+        return watts;
     }
 }

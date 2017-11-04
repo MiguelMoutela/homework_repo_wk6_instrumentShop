@@ -8,8 +8,8 @@ import codeclan.com.homeworkinstrumentclasses.Sellable;
 
 public abstract class Accessories implements Sellable {
 
-    private float costPrice;
-    private float sellPrice;
+    float costPrice;
+    float sellPrice;
 
     public Accessories(float costPrice, float sellPrice) {
 
