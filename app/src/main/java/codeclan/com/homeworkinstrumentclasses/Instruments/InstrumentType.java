@@ -6,6 +6,7 @@ package codeclan.com.homeworkinstrumentclasses.Instruments;
 
     public enum InstrumentType{
        ELECTRIC,
-       ACOUSTIC;
+       ACOUSTIC,
+       DIGITAL;
 
 }

@@ -33,7 +33,7 @@ public class CablesTest {
     }
     @Test
     public void canGetLength() {
-        assertEquals(15, cables.getlength());
+        assertEquals(15, cables.getLength());
     }
 
 }

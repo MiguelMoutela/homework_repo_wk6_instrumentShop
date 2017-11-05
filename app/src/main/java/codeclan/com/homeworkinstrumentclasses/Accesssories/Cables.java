@@ -26,7 +26,7 @@ public class Cables extends Accessories{
         return sellPrice;
     }
 
-    public int getlength() {
+    public int getLength() {
         return length;
     }
 }

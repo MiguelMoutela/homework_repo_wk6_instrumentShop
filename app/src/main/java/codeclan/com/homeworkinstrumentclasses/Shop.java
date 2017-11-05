@@ -12,14 +12,18 @@ import codeclan.com.homeworkinstrumentclasses.Instruments.Strings;
 
 public class Shop {
      String name;
-     ArrayList<Sellable>items;
-     ArrayList<Playable>items;
+     ArrayList<Sellable>sellableItems;
+     ArrayList<Playable>playableItems;
      float totalRealisableValue;
      ArrayList<String>allSounds;
+     String shopManagerYell;
 
     public Shop(String name) {
         this.name = name;
-        this.items = new ArrayList<Sellable>();
+//        this.sellableItems = new ArrayList<Sellable>();
+//        this.playableItems = new ArrayList<Playable>();
+//        this.allSounds = new ArrayList<String>();
+//        this.totalRealisableValue = totalRealisableValue;
     }
 
     public String getName() {
@@ -27,22 +31,24 @@ public class Shop {
     }
 
     public int getSize() {
-        return items.size();
+        return sellableItems.size();
     }
 
     public float getTotalRealisableValue() {
-        totalRealisableValue = 0;
-        for (Sellable item : items) {
+//        totalRealisableValue = 0;
+        for (Sellable item : sellableItems) {
             totalRealisableValue += item.markUp();
         }
         return totalRealisableValue;
     }
 
     public void kickCustomerOut() {
-        allSounds = null;
-        for (Playable item : items) {
-            allSounds.add(item);
+//        allSounds = [];
+        shopManagerYell = "GET OUT!";
+        for (Playable item : playableItems) {
+            allSounds.add(item.getSoundItMakes());
         }
+        allSounds.add(shopManagerYell);
         return allSounds;
     }
 }
