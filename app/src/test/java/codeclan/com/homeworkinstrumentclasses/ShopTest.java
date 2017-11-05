@@ -30,7 +30,7 @@ public class ShopTest {
         musicShop = new Shop("thatShop");
         guitar = new Strings(ELECTRIC, 100,145,6);
         drums = new Drums(ELECTRIC,400,500,3,5,7);
-        cables = new Cables(45,65,20);
+        cables = new Cables(45,55,20);
     }
     @Test
     public void shopHasName() {
@@ -51,6 +51,12 @@ public class ShopTest {
         musicShop.items.remove(guitar);
         assertEquals(0, musicShop.getSize());
     }
-    
+    @Test
+    public void shopHasTotalRealisableValue() {
+        assertEquals(600, musicShop.getTotalRealisableValue(),0.01);
+    }
+    @Test void shopCanKickCustomerOut() {
+        assertEquals("Squeak Squeak""BA-DUM-TSS", musicShop.kickCustomerOut());
+    }
 
 }

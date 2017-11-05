@@ -13,6 +13,9 @@ import codeclan.com.homeworkinstrumentclasses.Instruments.Strings;
 public class Shop {
      String name;
      ArrayList<Sellable>items;
+     ArrayList<Playable>items;
+     float totalRealisableValue;
+     ArrayList<String>allSounds;
 
     public Shop(String name) {
         this.name = name;
@@ -25,5 +28,21 @@ public class Shop {
 
     public int getSize() {
         return items.size();
+    }
+
+    public float getTotalRealisableValue() {
+        totalRealisableValue = 0;
+        for (Sellable item : items) {
+            totalRealisableValue += item.markUp();
+        }
+        return totalRealisableValue;
+    }
+
+    public void kickCustomerOut() {
+        allSounds = null;
+        for (Playable item : items) {
+            allSounds.add(item);
+        }
+        return allSounds;
     }
 }
